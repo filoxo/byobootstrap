@@ -1,0 +1,50 @@
+.termWindow {
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+}
+.termBtn {
+  background-color: #ddd;
+  border: 1px solid #cecece;
+  border-radius: 50%;
+  display: inline-block;
+  height: 13px;
+  margin: 0 4px;
+  width: 13px;
+}
+.close {
+  background-color: #ff3b47;
+  border-color: #9d252b;
+}
+.minimize {
+  background-color: #ffc100;
+  border-color: #9d802c;
+}
+.zoom {
+  background-color: #00d742;
+  border-color: #049931;
+}
+.termMenu {
+  align-items: center;
+  background-color: #bbb;
+  display: flex;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 25px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+.termScreen {
+  background-color: rgba(30,30,30,0.7);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0 auto;
+  min-height: 250px;
+  padding: 10px 15px;
+}
+.termScreen > * {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: .6em;
+  line-height: 1.5;  
+  text-align: left;
+}
