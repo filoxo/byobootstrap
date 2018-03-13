@@ -22,10 +22,10 @@ require('normalize.css');
 
 const theme = createTheme(
   {
-    primary: 'white',
-    secondary: '#1F2022',
-    tertiary: '#03A9FC',
-    quartenary: '#CECECE',
+    primary: '#222',
+    secondary: '#eee',
+    tertiary: '#499bfc',
+    quartenary: '#CECECE'
   },
   {
     primary: 'Montserrat',
