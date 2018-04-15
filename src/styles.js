@@ -12,7 +12,4 @@ const selector = {
   margin: '0 1rem'
 }
 
-export {
-  selector,
-  quizOptions
-}
+export { selector, quizOptions }
