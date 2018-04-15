@@ -41,10 +41,12 @@
   margin: 0 auto;
   min-height: 250px;
   padding: 10px 15px;
+  text-align: left;
 }
-.termScreen > * {
+.termScreen,
+.termScreen * {
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-  font-size: .6em;
+  font-size: 1.2rem;
   line-height: 1.5;  
   text-align: left;
 }
