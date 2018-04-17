@@ -21,15 +21,10 @@ console.log(theme)
 
 export default class Presentation extends React.Component {
   render() {
-    return (
-      <Deck
-        transition={['fade']}
-        transitionDuration={500}
-        theme={theme}
-        progress='number'
-      >
-        {Slides}
+    return <Deck transition={['fade']} transitionDuration={500} theme={theme} progress="number">
+        {Slides.map((slide, i) =>
+          React.cloneElement(slide, { key: `slide-${i}` })
+        )}
       </Deck>
-    );
   }
 }
