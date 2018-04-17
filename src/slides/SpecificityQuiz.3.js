@@ -24,7 +24,7 @@ export default (
     <Heading size={4} lineHeight={1.5}>
       {`Given this CSS, what color will the <h3>s become?`}
     </Heading>
-    <div style={{fontSize: '1.25rem', maxWidth: 225, margin: '0 auto'}}>
+    <div style={{ fontSize: '1.25rem', maxWidth: 225, margin: '0 auto' }}>
       <CodePane lang="html" source={quizCss} />
     </div>
     <Appear>

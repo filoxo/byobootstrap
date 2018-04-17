@@ -11,7 +11,7 @@ const selector = {
   padding: '.8rem 1.2rem',
   margin: '0 1rem'
 }
-const miniCard  = {
+const miniCard = {
   display: 'grid',
   gridTemplateColumns: '35% 1fr',
   padding: '.5rem',
