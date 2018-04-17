@@ -1,8 +1,7 @@
 import React from 'react'
 import { Slide, Heading, Appear, CodePane } from 'spectacle'
 
-const quizCss = `
-<style>
+const quizCss = `<style>
 h3  {
     color: red;
 }
@@ -25,7 +24,9 @@ export default (
     <Heading size={4} lineHeight={1.5}>
       {`Given this CSS, what color will the <h3>s become?`}
     </Heading>
-    <CodePane lang="css" source={quizCss} />
+    <div style={{fontSize: '1.25rem', maxWidth: 225, margin: '0 auto'}}>
+      <CodePane lang="html" source={quizCss} />
+    </div>
     <Appear>
       <div
         style={{ fontSize: '5rem', color: 'blue', textShadow: '0 0 5px #fff' }}
