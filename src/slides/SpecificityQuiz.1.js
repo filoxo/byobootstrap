@@ -4,8 +4,8 @@ import { selector, quizOptions } from '../styles'
 
 export default (
   <Slide transition={['fade']}>
-    <Heading size={2}>Specificity Quiz #1</Heading>
-    <Heading size={3} lineHeight={1.5} textColor="secondary">
+    <Heading size={3} textColor="orange">Specificity Quiz: #1</Heading>
+    <Heading size={4} lineHeight={1.5} textColor="secondary">
       Order these selectors from least specific to most specific.
     </Heading>
     <div style={quizOptions}>
@@ -17,13 +17,11 @@ export default (
       <div>
         <Heading size={3}>Answer:</Heading>
         <div style={quizOptions}>
-          <span>most</span>
-          <span>least</span>
-        </div>
-        <div style={quizOptions}>
-          <span style={selector}>#main</span>
-          <span style={selector}>.main</span>
+          <span>(least)</span>
           <span style={selector}>main</span>
+          <span style={selector}>.main</span>
+          <span style={selector}>#main</span>
+          <span>(most)</span>
         </div>
       </div>
     </Appear>
