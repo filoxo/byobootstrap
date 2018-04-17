@@ -5,6 +5,10 @@ import SpecificityQuiz1 from './SpecificityQuiz.1'
 import SpecificityQuiz2 from './SpecificityQuiz.2'
 import SpecificityQuiz3 from './SpecificityQuiz.3' 
 import GetToWork from './GetToWork'
+import Typography from './Typography'
+import Buttons from './Buttons'
+import Forms from './Forms'
+import Grid from './Grid'
 
 const Slides = [
   Intro,
@@ -13,7 +17,11 @@ const Slides = [
   SpecificityQuiz1,
   SpecificityQuiz2,
   SpecificityQuiz3,
-  GetToWork
+  GetToWork,
+  Typography,
+  Buttons,
+  Forms,
+  Grid
 ]
 
 export default Slides
