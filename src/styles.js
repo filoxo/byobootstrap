@@ -8,7 +8,7 @@ const selector = {
   borderRadius: '.5rem',
   color: '#fff',
   fontSize: '2rem',
-  padding: '1rem .8rem',
+  padding: '.8rem 1.2rem',
   margin: '0 1rem'
 }
 
