@@ -5,10 +5,7 @@ import { selector, quizOptions } from '../styles'
 export default (
   <Slide transition={['fade']}>
     <Heading size={3} textColor="orange">
-      
       Specificity Quiz: #1
-    
-    
     </Heading>
     <Heading size={4} lineHeight={1.5} textColor="secondary">
       Order these selectors from least specific to most specific.
