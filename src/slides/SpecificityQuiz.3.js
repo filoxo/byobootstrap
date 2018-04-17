@@ -1,6 +1,5 @@
 import React from 'react'
-import { Slide, Heading, List, ListItem, Appear, CodePane } from 'spectacle'
-import { selector, quizOptions } from '../styles'
+import { Slide, Heading, Appear, CodePane } from 'spectacle'
 
 const quizCss = `
 <style>

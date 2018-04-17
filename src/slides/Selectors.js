@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide, Heading, Text } from 'spectacle'
+import { Slide } from 'spectacle'
 import SimpleTerminal from '../SimpleTerminal'
 
 export default (
