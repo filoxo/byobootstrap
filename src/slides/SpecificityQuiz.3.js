@@ -1,17 +1,18 @@
 import React from 'react'
-import { Slide, Heading, Appear, CodePane } from 'spectacle'
+import { Slide, Heading, Appear, CodePane, Text } from 'spectacle'
+import { selector } from '../styles'
 
 const quizCss = `<style>
 h3  {
-    color: red;
+  color: lightcoral;
 }
 
 h3 {
-  color: blue;
+  color: lightblue;
 }
 
 h2 { 
-  color: green;
+  color: lightgreen;
 }
 </style>
 `
@@ -24,15 +25,13 @@ export default (
     <Heading size={4} lineHeight={1.5}>
       {`Given this CSS, what color will the <h3>s become?`}
     </Heading>
-    <div style={{ fontSize: '1.25rem', maxWidth: 225, margin: '0 auto' }}>
-      <CodePane lang="html" source={quizCss} />
-    </div>
-    <Appear>
-      <div
-        style={{ fontSize: '5rem', color: 'blue', textShadow: '0 0 5px #fff' }}
-      >
-        Blue!
+    <div style={selector}>
+      <div style={{ fontSize: '1.25rem', maxWidth: 275, margin: '0 auto' }}>
+        <CodePane lang="html" source={quizCss} />
       </div>
-    </Appear>
+      <Appear>
+        <Text style={{ fontSize: '5rem', color: 'lightblue' }}>lightblue</Text>
+      </Appear>
+    </div>
   </Slide>
 )
