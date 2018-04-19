@@ -1,14 +1,15 @@
 import Intro from './Intro'
 import WhyBuild from './WhyBuild'
-import SpecificityQuiz1 from './SpecificityQuiz.1' 
+import SpecificityQuiz1 from './SpecificityQuiz.1'
 import SpecificityQuiz2 from './SpecificityQuiz.2'
-import SpecificityQuiz3 from './SpecificityQuiz.3' 
+import SpecificityQuiz3 from './SpecificityQuiz.3'
 import Selectors from './Selectors'
 import GetToWork from './GetToWork'
 import Typography from './Typography'
 import Buttons from './Buttons'
 import Forms from './Forms'
 import Grid from './Grid'
+import ResetsComparison from './Resets'
 
 const Slides = [
   Intro,
@@ -21,7 +22,8 @@ const Slides = [
   Typography,
   Buttons,
   Forms,
-  Grid
+  Grid,
+  ResetsComparison
 ]
 
 export default Slides
