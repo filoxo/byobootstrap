@@ -9,7 +9,8 @@ import Typography from './Typography'
 import Buttons from './Buttons'
 import Forms from './Forms'
 import Grid from './Grid'
-import ResetsComparison from './Resets'
+import ResetVisualComparison from './ResetVisualComparison'
+import ResetComparison from './ResetComparison'
 
 const Slides = [
   Intro,
@@ -23,7 +24,8 @@ const Slides = [
   Buttons,
   Forms,
   Grid,
-  ResetsComparison
+  ResetVisualComparison,
+  ResetComparison
 ]
 
 export default Slides
