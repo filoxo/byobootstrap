@@ -17,13 +17,19 @@ export default (
     </div>
     <Appear>
       <div>
-        <Heading size={3}>Answer:</Heading>
+        <Heading size={4} style={{ margin: '3rem 0' }}>
+          Answer:
+        </Heading>
         <div style={quizOptions}>
-          <span>(least)</span>
-          <span style={selector}>main</span>
+          <span>
+            <span>(least)</span>
+            <span style={selector}>main</span>
+          </span>
           <span style={selector}>.main</span>
-          <span style={selector}>#main</span>
-          <span>(most)</span>
+          <span>
+            <span style={selector}>#main</span>
+            <span>(most)</span>
+          </span>
         </div>
       </div>
     </Appear>
