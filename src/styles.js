@@ -4,8 +4,7 @@ const quizOptions = {
   justifyContent: 'space-between'
 }
 const selector = {
-  backgroundColor: 'darkgoldenrod',
-  borderRadius: '.5rem',
+  backgroundColor: '#333',
   color: '#fff',
   fontSize: '2rem',
   padding: '.8rem 1.2rem',
