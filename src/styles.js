@@ -18,4 +18,9 @@ const miniCard = {
   justifyContent: 'center'
 }
 
-export { selector, quizOptions, miniCard }
+const topicIcon = {
+  maxWidth: '200px',
+  maxHeight: '200px;'
+}
+
+export { selector, quizOptions, miniCard, topicIcon }
