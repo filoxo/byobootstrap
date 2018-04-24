@@ -4,30 +4,22 @@ import { Slide, Heading, Text, Appear, Notes } from 'spectacle'
 export default (
   <Slide transition={['fade']}>
     <Heading size={2} lineHeight={1.3} textColor="heading">
-      Reasons & Motivations
+      What you get
     </Heading>
     <Appear>
-      <Text>Your brand ≠ Bootstrap</Text>
+      <Text>Your brand > Bootstrap</Text>
     </Appear>
     <Appear>
-      <Text>Decisions & Tradeoffs</Text>
-    </Appear>
-    <Appear>
-      <Text>Performance</Text>
-    </Appear>
-    <Appear>
-      <Text>Maintainability & Enhancements</Text>
+      <Text>Control</Text>
     </Appear>
     <Appear>
       <Text>Experience</Text>
     </Appear>
     <Notes>
       <p>
-        I want to talk about what my motivations for this talk, for the most
-        part these reasons are timeless.
+        What do you get with building your own framework?
         <br />
-        Why should you ever build your own CSS framework? There are a lot of
-        really good reasons actually.
+        Why should you ever build your own CSS framework?
       </p>
       <ul>
         <li>
