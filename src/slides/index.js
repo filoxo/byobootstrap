@@ -6,8 +6,10 @@ import SpecificityQuiz3 from './SpecificityQuiz.3'
 import Selectors from './Selectors'
 import GetToWork from './GetToWork'
 import Typography from './Typography'
+import AnatomyOfGoodTypography from './AnatomyOfGoodTypography'
 import Buttons from './Buttons'
 import Forms from './Forms'
+import AnatomyOfGoodForms from './AnatomyOfGoodForms'
 import Grid from './Grid'
 import ResetVisualComparison from './ResetVisualComparison'
 import ResetComparison from './ResetComparison'
@@ -21,8 +23,10 @@ const Slides = [
   Selectors,
   GetToWork,
   Typography,
+  AnatomyOfGoodTypography,
   Buttons,
   Forms,
+  AnatomyOfGoodForms,
   Grid,
   ResetVisualComparison,
   ResetComparison
