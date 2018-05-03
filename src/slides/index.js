@@ -1,4 +1,5 @@
 import Intro from './Intro'
+import WhatIsAFramework from './WhatIsAFramework'
 import WhyBuild from './WhyBuild'
 import SpecificityQuiz1 from './SpecificityQuiz.1'
 import SpecificityQuiz2 from './SpecificityQuiz.2'
@@ -16,6 +17,7 @@ import ResetComparison from './ResetComparison'
 
 const Slides = [
   Intro,
+  WhatIsAFramework,
   WhyBuild,
   SpecificityQuiz1,
   SpecificityQuiz2,
