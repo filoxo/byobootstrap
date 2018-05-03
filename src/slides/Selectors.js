@@ -10,7 +10,8 @@ export default (
       style={{
         display: 'flex',
         flexDirection: 'column',
-        backgroundColor: '#333'
+        backgroundColor: '#222',
+        borderRadius: 5
       }}
     >
       <div style={miniCard}>

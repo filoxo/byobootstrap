@@ -4,7 +4,8 @@ const quizOptions = {
   justifyContent: 'space-between'
 }
 const selector = {
-  backgroundColor: '#333',
+  backgroundColor: '#222',
+  borderRadius: 5,
   color: '#fff',
   fontSize: '2rem',
   padding: '.8rem 1.2rem',
@@ -20,7 +21,19 @@ const miniCard = {
 
 const topicIcon = {
   maxWidth: '200px',
-  maxHeight: '200px;'
+  maxHeight: '200px'
 }
 
-export { selector, quizOptions, miniCard, topicIcon }
+const fwPart = {
+  backgroundColor: '#222',
+  borderRadius: 5,
+  fontSize: '1.5rem',
+  padding: '1rem'
+}
+
+const borderBox = {
+  border: '10px solid #222',
+  borderRadius: 5
+}
+
+export { selector, quizOptions, miniCard, topicIcon, fwPart, borderBox }
