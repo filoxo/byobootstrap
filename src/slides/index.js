@@ -14,6 +14,7 @@ import AnatomyOfGoodForms from './AnatomyOfGoodForms'
 import Grid from './Grid'
 import ResetVisualComparison from './ResetVisualComparison'
 import ResetComparison from './ResetComparison'
+import WhatsNext from './WhatsNext'
 
 const Slides = [
   Intro,
@@ -31,7 +32,8 @@ const Slides = [
   AnatomyOfGoodForms,
   Grid,
   ResetVisualComparison,
-  ResetComparison
+  ResetComparison,
+  WhatsNext
 ]
 
 export default Slides
