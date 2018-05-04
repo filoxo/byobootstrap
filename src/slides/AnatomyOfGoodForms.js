@@ -6,7 +6,7 @@ export default (
     <Heading size={3} lineHeight={1.3}>
       Anatomy of Good Forms
     </Heading>
-    <List>
+    <List style={{ display: 'inline-block', margin: '0 auto' }}>
       <ListItem>Semantic HTML</ListItem>
       <ListItem>Validation</ListItem>
     </List>

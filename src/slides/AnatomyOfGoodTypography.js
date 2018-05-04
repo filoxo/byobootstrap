@@ -6,7 +6,7 @@ export default (
     <Heading size={3} lineHeight={1.3}>
       Anatomy of Good Typography
     </Heading>
-    <List>
+    <List style={{ display: 'inline-block', margin: '0 auto' }}>
       <ListItem>Readability</ListItem>
       <ListItem>Accessibility</ListItem>
     </List>
