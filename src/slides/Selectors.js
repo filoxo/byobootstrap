@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide, Heading, Code, CodePane } from 'spectacle'
+import { Slide, Heading, Code, CodePane, Notes } from 'spectacle'
 import SimpleTerminal from '../SimpleTerminal'
 import { miniCard } from '../styles'
 
@@ -56,5 +56,42 @@ div:after {}`}
         />
       </div>
     </div>
+    <Notes>
+      <div style={{ fontSize: '2.25rem' }}>
+        <p>Did that trip anyone up?</p>
+        <p>
+          To expect you to know the result without seeing the CSS applied to it
+          in a browser is a little silly, but hopefully these examples weren't
+          too complicated. I want to talk about these selectors so that we can
+          be on the same page since this is the building block of CSS that we
+          will be using all throughout this workshop.
+        </p>
+        <p>
+          Lets review these selectors.
+          <ul>
+            <li>
+              The least specific styles are <pre>element selectors</pre>.
+            </li>
+            <li>
+              The next up are{' '}
+              <pre>classes, attributes, and pseudo-elements</pre>. Can someone
+              give me a definition of what a pseudo element is?
+            </li>
+            <li>
+              Above that are ID selectors. Giving something a name makes things
+              super clear, since IDs should be unique to the page.
+            </li>
+            <li>
+              Sometimes you need to account for inline styles, because they have
+              a pretty high specificity.
+            </li>
+            <li>
+              Lastly, the `!important` declaration is a very interesting thing.
+              Does anyone know where and why it came about?
+            </li>
+          </ul>
+        </p>
+      </div>
+    </Notes>
   </Slide>
 )

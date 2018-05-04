@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide, Heading, Appear } from 'spectacle'
+import { Slide, Heading, Appear, Notes } from 'spectacle'
 import { selector, quizOptions } from '../styles'
 
 export default (

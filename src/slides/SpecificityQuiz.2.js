@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide, Heading, Appear, CodePane, Code, Text } from 'spectacle'
+import { Slide, Heading, Appear, CodePane, Code, Text, Notes } from 'spectacle'
 import { selector } from '../styles'
 
 const quizCode = `<style>
