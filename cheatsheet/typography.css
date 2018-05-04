@@ -1,0 +1,33 @@
+:root {
+  color: #333;
+  font-size: 18px; /* Choosing a default font size for best readability */
+  line-height: 1.2; /* The line-height property defines the amount of space above and below inline elements. */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; /* This is the fastest font to load - the system font! */
+}
+
+/* Typography uses a "rhythm" of .15 increments */
+h1 {
+  font-size: 1.75rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.45rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+h5 {
+  font-size: 1.15rem;
+}
+h6 {
+  font-size: 1rem;
+}
+p {
+  font-size: 1rem;
+}
+small {
+  font-size: 0.75rem;
+}

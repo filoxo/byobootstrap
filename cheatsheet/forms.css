@@ -1,0 +1,59 @@
+.form {
+  max-width: 450px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'],
+input[type='email'],
+textarea,
+select {
+  border: 1px solid #333;
+  font-size: 1rem;
+  padding: 0.25rem;
+  width: 100%;
+}
+
+/* Controls like these are still not very easy to style, so we can hack it... */
+input[type='checkbox'],
+input[type='radio'] {
+  /* Hide the control itself, visually */
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Create a pseudo element that will be the actual thing being displayed */
+input[type='checkbox'] + label:before,
+input[type='radio'] + label:before {
+  content: '\00a0';
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 2px;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.25rem;
+}
+/* EXTRA CREDIT: the problem with custom checkbox/radios is now you lose the outline, which is an accessibility affordance. But you can get it back... with this style rule. */
+input[type='checkbox']:focus + label:before,
+input[type='radio']:focus + label:before {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: Highlight;
+}
+/* Set the content to a checkmark using the checkmark hex code */
+input[type='checkbox']:checked + label:before {
+  content: '\2714';
+}
+/* Make radio buttons round */
+input[type='radio'] + label:before {
+  border-radius: 1rem;
+}
+/* Instead of changing the content, we just fill in the background color */
+input[type='radio']:checked + label:before {
+  background: #333;
+}
