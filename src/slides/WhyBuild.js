@@ -16,44 +16,36 @@ export default (
       <Text>Experience</Text>
     </Appear>
     <Notes>
-      <p>
-        What do you get with building your own framework?
-        <br />
-        Why should you ever build your own CSS framework?
-      </p>
-      <ul>
-        <li>
-          The first is your site's brand probably isn't exactly like someone
-          else's. The visual design of everything included in a CSS framework is
-          part of the image and experience you're giving to your sites'
-          visitors.
-        </li>
-        <li>
-          Not all frameworks are created equally. Every framework is a
-          compilation of decisions and tradeoffs. What browsers do you need to
-          support? Does it pass all accessibility checks? By creating your own,
-          you're making these decisions rather than accepting them from
-          elsewhere.
-        </li>
-        <li>
-          Page sizes are getting bigger in the overall. Size is one aspect to
-          performance, but also realize that after downloading, the browser
-          needs to parse, evaluate, and render all the styles. Maybe you don't
-          need to load a complex UI library and roll your own instead.
-        </li>
-        <li>
-          Have any of you wanted to extend or maybe just tweak a few things a
-          large CSS framework like Bootstrap, Foundation, or jQuery UI? Forking
-          is an option, but maybe so it creating your own.
-        </li>
-        <li>
-          Sometimes you just have to do things from scratch just for the
-          experience. You actually get to encounter those problems that require
-          design decisions and tradeoffs. You get to fight the cascade,
-          understand more in-depth concepts, and experiment with new features.
-          You can really hone the skills of our craft.
-        </li>
-      </ul>
+      <div style={{ fontSize: '2.25rem' }}>
+        <p>
+          Just before we get started, I wanted to give you some reasons why
+          doign through all this effort is worth it. Of course, all of you are
+          here already; this is something you want to tackle. But sometimes you
+          need to make a business case in order for an effort like this to gain
+          traction and be allowed to grow.
+        </p>
+        <p>
+          1. Building from the ground up gives you the opportunity to build
+          something greater and better than Bootstrap. Maybe it doesn't have all
+          the bells and whistles, but it can be entirely yours. Your brand, your
+          image, your user's best experience.
+        </p>
+        <p>
+          2. When you adopt a framework, you're often adopting a suite of
+          decisions, tradeoffs, and opinions (like we've already mentioned).
+          Sometimes, that framework solves 90% of your needs, sometimes less.
+          Building your own could take just as much time but gives you 100%
+          control of the end product.
+        </p>
+        <p>
+          3. Experience. An informal survey of my network of developers shows
+          that less than 10% have created what they would call a framework; more
+          than 64% have contributed to one; and every single one has used one.
+          No surprise on that last one, I'd guess. But being involved in the
+          architecture, design, and implementation of a framework is a very
+          valuable experience.
+        </p>
+      </div>
     </Notes>
   </Slide>
 )

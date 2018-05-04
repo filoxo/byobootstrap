@@ -32,5 +32,19 @@ export default (
         <div style={fwPart}>Build pipeline</div>
       </div>
     </Appear>
+    <Notes>
+      <div style={{ fontSize: '2.25rem' }}>
+        <p>
+          Lets talk about what a framework even is. When I say "CSS framework"
+          what comes to mind? What goes into a framework?
+        </p>
+        <p>
+          There's a whole lot that goes into a style framework. A framework
+          needs a lot of time and input in order for it to become full-fledged
+          and ready to use. Today we're only going to be going to tackling only
+          a fraction of this list, all of the first row and some of the second.
+        </p>
+      </div>
+    </Notes>
   </Slide>
 )
