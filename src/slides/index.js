@@ -28,9 +28,9 @@ const Slides = [
   Typography,
   AnatomyOfGoodTypography,
   Buttons,
+  Grid,
   Forms,
   AnatomyOfGoodForms,
-  Grid,
   ResetVisualComparison,
   ResetComparison,
   WhatsNext
