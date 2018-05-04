@@ -31,5 +31,11 @@ export default (
         <Text style={{ fontSize: '5rem', color: 'lightblue' }}>lightblue</Text>
       </Appear>
     </div>
+    <Notes>
+      <div style={{ fontSize: '2.25rem' }}>
+        A little bit of a continuation of the previous question, but closer to a
+        real world example.
+      </div>
+    </Notes>
   </Slide>
 )

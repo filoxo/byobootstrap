@@ -33,5 +33,17 @@ export default (
         </div>
       </div>
     </Appear>
+    <Notes>
+      <div style={{ fontSize: '2.25rem' }}>
+        <p>
+          Selectors do not all apply evenly, that's the "cascade" part of CSS.
+        </p>
+        <p>
+          So if a style has all three of these styles, they would apply in the
+          following order: 1) `main` (element selector), 2) `.main` (class
+          selector), and 3) `#main` (ID selector)
+        </p>
+      </div>
+    </Notes>
   </Slide>
 )

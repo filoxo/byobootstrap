@@ -49,5 +49,11 @@ export default (
         </Text>
       </Appear>
     </div>
+    <Notes>
+      <div style={{ fontSize: '2.25rem' }}>
+        In this question, we have this bit of html. Which of these paragraph
+        tags will be styled with the above css?
+      </div>
+    </Notes>
   </Slide>
 )
