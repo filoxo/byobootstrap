@@ -9,6 +9,7 @@ import GetToWork from './GetToWork'
 import Typography from './Typography'
 import AnatomyOfGoodTypography from './AnatomyOfGoodTypography'
 import Buttons from './Buttons'
+import AnatomyOfGoodButtons from './AnatomyOfGoodButtons'
 import Forms from './Forms'
 import AnatomyOfGoodForms from './AnatomyOfGoodForms'
 import Grid from './Grid'
@@ -28,6 +29,7 @@ const Slides = [
   Typography,
   AnatomyOfGoodTypography,
   Buttons,
+  AnatomyOfGoodButtons,
   Grid,
   Forms,
   AnatomyOfGoodForms,
